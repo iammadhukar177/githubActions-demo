@@ -1,5 +1,7 @@
-const { add } = require('../src/index');
+const { main } = require('../src/index');
 
-test('adds 1 + 2 to equal 3', () => {
-    expect(add(1, 2)).toBe(3);
+describe('main function', () => {
+    test('should perform the primary task correctly', () => {
+        expect(main()).toBe("Hello from GitHub Actions!");
+    });
 });
