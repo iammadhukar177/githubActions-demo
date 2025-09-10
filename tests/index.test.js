@@ -1,10 +1,5 @@
-const { main } = require('../src/index');
+const { add } = require('../src/index');
 
-describe('main function', () => {
-    test('should perform the primary task correctly', () => {
-        // Add your test cases here
-        expect(main()).toBe(/* expected result */);
-    });
-
-    // Add more test cases as needed
+test('adds 1 + 2 to equal 3', () => {
+    expect(add(1, 2)).toBe(3);
 });

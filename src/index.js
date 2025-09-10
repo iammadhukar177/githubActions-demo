@@ -1,6 +1,5 @@
-function main() {
-    // Your main code logic goes here
-    console.log("Hello, GitHub Actions!");
+function add(a, b) {
+    return a + b;
 }
 
-module.exports = main;
+module.exports = { add };
